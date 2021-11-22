@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/materialize.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    
+    <h1>Tutorials</h1>
+
+    <div class="container">
+        <form>
+            <input type="Text" placeholder="Title tutorial" id="title">
+            <input type="Text" placeholder="Description tutorial" id="descr">
+            <input type="submit" value="Send" >
+        </form>
+
+        <ul id="list">
+
+            <li>Tutorial 1</li>
+            <li>Tutorial 2</li>
+            <li>Tutorial 3</li>
+            <li>Tutorial 4</li>
+            <li>Tutorial 5</li>
+        </ul>
+    </div>
+
+    <div class="row">
+        <div class="col s12">
+            <div id="modal1" class="modal">
+                <div class="modal-content">
+            <!--       <h4>Modal Header</h4>
+                  <p>A bunch of text</p> -->
+                  <form id="edit-form">
+                    <input type="text" placeholder="Edit title" id="title-edit">
+                    <input type="text" placeholder="Edit description" id="descr-edit" >
+                    <input type="submit" value="Edit info" >
+                </form>
+        
+                </div>
+                <div class="modal-footer">
+                  <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+                </div>
+              </div>
+
+              <a class="waves-effect waves-light btn" id="open-modal" >open info</a>
+
+        </div>
+    </div>
+
+    
+    <script src="js/script.js"></script>
+</body>
+</html>
